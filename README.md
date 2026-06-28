@@ -45,12 +45,12 @@ The script returns:
 ## Usage
 
 ```powershell
-Install-Module Microsoft.Graph
-Connect-MgGraph -Scopes "User.Read.All"
+# Navigate to source directory
+Set-Location ./src
 
+# Run provisioning script
 .\Get-GuestInviteStatus.ps1
 ```
-
 
 ## Use Cases
 -   External user access cleanup
