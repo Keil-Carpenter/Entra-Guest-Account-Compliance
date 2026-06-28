@@ -47,8 +47,10 @@ The script returns:
 ```powershell
 Install-Module Microsoft.Graph
 Connect-MgGraph -Scopes "User.Read.All"
-```
+
 .\Get-GuestInviteStatus.ps1
+```
+
 
 ## Use Cases
 -   External user access cleanup
